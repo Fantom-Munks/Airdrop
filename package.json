@@ -1,0 +1,17 @@
+{
+  "name": "fantom-munks-airdrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "get-owners": "node src/get-owners.js",
+    "make-airdrops": "node src/make-airdrops.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.1"
+  }
+}
